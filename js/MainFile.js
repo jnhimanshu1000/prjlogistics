@@ -48,7 +48,7 @@ function ClearActiveClass() {
         case "careers.html":
             document.getElementById('menu_careers').classList.add("active");
             break;
-        case "Contactus.html":
+        case "contactus.html":
             document.getElementById('menu_contact').classList.add("active");
             break;
         case "ourclient.html":
