@@ -158,7 +158,7 @@ textarea {
             color: #06376a;
             font-weight: bold;
             float: left;
-            padding: 0 30px;
+            padding: 0 29px;
             border: 1px solid #d7e1e8;
             border-left: 0;
             border-right: 0;
@@ -381,7 +381,7 @@ section {
     }
 
     .cols .col {
-        width: 330px;
+        width: 509px;
         float: left;
     }
 
