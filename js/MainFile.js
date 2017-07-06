@@ -53,10 +53,26 @@ function ClearActiveClass() {
             break;
         case "ourclient.html":
             document.getElementById('menu_client').classList.add("active");
-            break;            
+            break;
         default:
             document.getElementById('menu_home').classList.add("active");
             break;
     }
 }
 ClearActiveClass();
+function ShowDiv(divId) {
+    var x = document.getElementById(divId);
+    if (x) {
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+}
+
+ShowDiv('trackDropDown');
+
+function ShowAlert() {
+    alert('Consignment no. not valid. Please enter the correct consignment number and search.');
+}
