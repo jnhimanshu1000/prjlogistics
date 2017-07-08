@@ -55,7 +55,8 @@ function ClearActiveClass() {
             document.getElementById('menu_client').classList.add("active");
             break;
         default:
-            document.getElementById('menu_home').classList.add("active");
+            if (document.getElementById('menu_home'))
+                document.getElementById('menu_home').classList.add("active");
             break;
     }
 }
